@@ -1,0 +1,3 @@
+[submodule "libs/TARGET_CY8CKIT-062-BLE"]
+	path = libs/TARGET_CY8CKIT-062-BLE
+	url = https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-BLE
