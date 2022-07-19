@@ -10,4 +10,6 @@ In the library you will see I used an standard configuration. However, you can c
 
 You may use the infineon software [Modustoolbox](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) to run this project. If you are going to to do this, you will not need to create a new ModusToolbox apllication and directly import the project.
 
-**Note: You will need to set the path CY_**
+**Note: You will need to set a environment variable in your computer called CY_TOOLS_PATHS to the path where modustoolbox is installed and to the folder tools_2.4 like this:**
+
+C:/Users/<Name>/ModusToolBox/tools_2.4/
