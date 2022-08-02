@@ -20,14 +20,3 @@ C:/Users/<Name>/ModusToolBox/tools_2.4/
 You can use PuTTY to run a window in the COMX (_Check the device manager_) and with a baudrate of 115200.
 
 
-### PSoC64_commands_for_keys: **CY8CKIT-064B0S2-4343W**
-
-- cysecuretools -t cy8ckit-064b0s2-4343w init
-
-- cysecuretools -t cy8ckit-064b0s2-4343w -p policy/policy_single_CM0_CM4_swap.json create-keys
-
-- cysecuretools -t cy8ckit-064b0s2-4343w -p policy/policy_single_CM0_CM4_swap.json provision-device
-
-- cysecuretools -t cy8ckit-064b0s2-4343w -p policy/policy_single_CM0_CM4_swap.json re-provision-device 
-
-_**Dont forget to turn on the LED in parpadeo and to remove the jumper**_
